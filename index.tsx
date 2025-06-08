@@ -1,6 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App.tsx'; // Assuming App.tsx is in the same directory
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -10,8 +11,6 @@ if (!rootElement) {
 const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
-    <div style={{ color: 'white', fontSize: '48px', textAlign: 'center', paddingTop: '50px' }}>
-      Olá do React!
-    </div>
+    <App />
   </React.StrictMode>
 );
