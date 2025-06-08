@@ -1,0 +1,6 @@
+
+{
+  "name": "Jomba Clicker",
+  "description": "A dynamic and simple game where the objective is to click the correct image. Each correct click increases the speed and randomness of the images' movement.",
+  "requestFramePermissions": []
+}
