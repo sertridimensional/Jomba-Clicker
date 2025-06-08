@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,11 +31,13 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <!-- 1. Include Babel Standalone -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+  <!-- 2. Update your script tag type and add data-presets -->
+  <script type="text/babel" data-type="module" data-presets="react,typescript" src="./index.tsx"></script>
 </body>
 </html>
